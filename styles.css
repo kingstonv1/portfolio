@@ -82,6 +82,25 @@
     margin-top: 130px;
 }
 
+.entry {
+    width: 350px;
+    height: auto;
+    margin-left: 192px;
+    float: left;
+    border: 3px dashed grey;
+    border-radius: 30px;
+}
+
+.entry p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Muli';
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .seperator {
     width: 60%;
     margin-left: auto;
