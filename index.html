@@ -35,14 +35,15 @@
         
 
         .option {
-            display: block;
+            display: inline-block;
             padding-top: 10px;
             padding-bottom: 10px;
             padding-left: 20px;
             padding-right: 25px;
             height: 80px;
-            width: 100px;
-            margin: 0 auto;
+            width: auto;
+            margin: auto;
+            cursor: pointer;
         }
 
         .option h1 {
@@ -69,10 +70,12 @@
 <body class="main">
 
     <div class="navbar">
-        <div class="option" id="home">
+
+        <div class="option" id="home" onclick="//Nothing, because we are on the home page.">
             <h1>Home</h1>
         </div>
-        <div class="option" id="contact">
+
+        <div class="option" id="contact" onclick="window.location = 'contact'">
             <h1>Contact Me</h1>
         </div>
     </div>
