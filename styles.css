@@ -142,7 +142,7 @@
 .languages {
     background-color: gray;
     border: 4px solid black;
-    margin-left: 200px;
+    margin-left: 100px;
     flex-grow: 0.6;
     float: right;
     display: flex;
