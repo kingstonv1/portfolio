@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 
+<!-- 
+            To Do:
+            ! Add gifs of projects working to side of entries!!!!!
+            ! Projects Dropdown menu to scroll to specific project
+            ! "Contact Me" list of email, discord, github, etc at the bottom of the page
+            ? "About This Page"
+            ? Background image to left/right of page content? 
+            * Links to the web projects once I find hosting
+-->
+
+
 <head>
     <link rel="stylesheet" href="styles.css">
     
@@ -12,15 +23,13 @@
     <meta name="description" content="Kingston Vastine's CS Portfolio">
     <meta name="author" content="Kingston Vastine">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 </head>
 
 <body class="page">
     <div class="navbar">
-        <div class="option" id="home" onclick="//Nothing, because we are on the home page." >
+        <!-- <div class="option" id="home">
             <h6>Home</h6>
-        </div>
+        </div> -->
         
         <div class="option" id="aboutme">
             <h6>About Me</h6>
@@ -30,7 +39,7 @@
             <h6>Projects</h6>
         </div>
 
-        <div class="option" id="contact" onclick="window.location = 'pages/contact.html'">
+        <div class="option" id="contact">
             <h6>Contact Me</h6>
         </div>
 
@@ -40,9 +49,9 @@
     </div>
     
     <div class="main" id="main">
-        <h1>Hello 👋</h1>
+        <h1 id="top">Hello 👋</h1>
         <hr class="seperator">
-        <div class="aboutentry" id="introduction">
+        <div class="aboutentry">
             <p style="text-align: center;">
                 I'm 
                 <span style="color: lime;">Kingston</span>, 
@@ -133,9 +142,113 @@
         
     <hr class="seperator">
 
-    <h1>My Projects 🔧</h1>
+    <h1 id="projs">My Projects 🔧</h1>
 
-    </div>
+    <hr class="seperator">
+
+        <div style="margin-top: 15px; width: 100%;">
+            <h2 style="float: left; margin-left: 40%; margin-right: 15px;">
+                <span style="color: yellow;">Leo</span><span style="color: green;">Stats</span>
+            </h2>
+            <img src="./assets/Leotechs Logo.png" alt="Lithia Springs High School Robotics Team Logo" style="width: 50px; height: 50px; float: left;">
+        </div>
+
+        <div class="entry">
+            <p style="float: left;">
+                LeoStats is a compact & simple dashboard to better inform FIRST Robotics teams about their
+                schedules, placements, alliances, & more during an event.
+                <br><br>
+                It's built using JavaScript, both client and server (using Node.Js) side. It gathers its data from the FIRST Events API
+                and sorts that data in ways which are relevant to the end user. 
+                <br><br>
+            </p>
+            <a  href="https://github.com/FRC-4459/LeoStats">
+                https://github.com/FRC-4459/LeoStats
+            </a>
+        </div>
+        
+        <!-- <div>
+            <img src="./assets/project.gif" width="250" height="144" >
+            <img src="./assets/project.gif" width="250" height="144">
+        </div> -->
+        <br>
+        <hr class="seperator">
+
+        
+        <div style="margin-top: 15px; width: 100%;">
+            <h2 style="float: left; margin-left: 35%; margin-right: 15px;">
+                <span style="color: limegreen;">Healthy</span><span style="color: darkred;">Heart</span>Survey ❤️
+            </h2>
+        </div>
+        
+        <div class="entry">
+            <p>
+                The Healthy Heart Survey is a simple questionnare built which asks the user quesitons
+                about their demographics and lifestle and returns a "risk factor" indicating their 
+                vulnerability to heart disease. It also provides helpful resources on lowering this
+                factor.
+                <br><br>
+                The survey is built using JavaScript & HTML on the front end, and a python HTTP server on the backend.
+                Data is passed between the two using HTTP POST requests.
+                <br><br> 
+            </p>
+            <a  href="https://github.com/ItsJustKon/HealthyHeartSurvery">
+                https://github.com/KingstonV/HealthyHeartSurvery
+            </a>
+        </div>
+
+        <hr class="seperator">
+
+        <div style="margin-top: 15px; width: 100%;">
+            <h2 style="float: left; margin-left: 45%; margin-right: 15px;">
+                <span style="color: orange;">Calico</span> 🐈
+            </h2>
+        </div>
+        
+        <div class="entry">
+            <p>
+                The Calico collection is a repository of C++ files which are labeled
+                corresponding to Calico problems.
+                <br><br>
+                Calio is a semiannual programming competition held by U.C. Berkely for high school students.
+                These programs are solutions to some of the sample, in-competition, & past programming problems
+                provided by U.C. Berkely. These questions range from simple algorithm-building challenges
+                to use of high-level concepts such as Dynamic Programming, Search/Sorting Algothms, Graphing Algorithms,
+                Shortest Path Algorithms, and more.
+                <br><br>
+            </p>
+            <a  href="https://github.com/kingstonv1/calico">
+                https://github.com/kingstonv1/calico
+            </a>
+        </div>
+        
+        <hr class="seperator">
+
+        <div style="margin-top: 15px; width: 100%;">
+            <h2 style="float: left; margin-left: 45%; margin-right: 15px;">
+                <span style="color: lightblue;">Remind</span><span style="color: grey;">Bot</span> 🤖
+            </h2>
+        </div>
+        
+        <div class="entry">
+            <p>
+                RemindBot is a project which aims to connect LSHS STEM students further with their teachers
+                through connection of the Remind and Discord platforms.
+                <br><br>
+                This project will start development in the near future.
+                The goal of this bot is to allow teachers to opt-in to automatically sending their Remind
+                messages to the official LSHS STEM Discord server. The bot achieves this once invited to the 
+                Remind by scanning its email for messages posted by teachers on Remind and "Forwarding" their
+                contents to the Discord server using Discord.Js.
+                <br><br>
+            </p>
+            <a  href="https://github.com/kingstonv1/remindBot">
+                https://github.com/kingstonv1/remindBot
+            </a>
+        </div>
+
+
+        
 
     <script src="./scripts/main.js"></script>
 </body>
