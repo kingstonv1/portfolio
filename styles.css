@@ -212,11 +212,29 @@ h2 {
 }
 
 p1 {
-    color: white;
+    color: grey;
     text-align: center;
     font-size: 20px;
     font-weight: 200;
     font-family: 'Muli';
+    display: inline-block;
+}
+
+p {
+    color: grey;
+    font-family: 'Muli';
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+a {
+    color: grey;
+    font-family: 'Muli';
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
 }
 
 table, th, td {
