@@ -79,12 +79,15 @@ html {
 
 
 .page {
-    margin-top: 30px;
+    height: 100%;
+    width: 75%;
+    margin: 0;
+    margin-left: 12.5%;
     background-color: rgb(24, 26, 27);
 }
 
 .main {
-    margin-top: 130px;
+    margin-top: 88px;
 }
 
 .aboutentry {
@@ -109,7 +112,7 @@ html {
 .entry {
     width: 350px;
     height: auto;
-    margin-left: 19.5%;
+    margin-left: 10%;
 }
 
 .entry p {
